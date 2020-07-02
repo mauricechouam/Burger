@@ -2,12 +2,16 @@
 <div class="container">
 
     <div class="jumbotron">
-        <h1 id="color-override1">Welcome to Maurice Burger restaurant</h1>
+        <div class="sign">
+            <span class="fast-flicker"> Welcome </span> to Maurice<span class="flicker"> Burger restaurant </span>
+        </div>
         <h3 id="color-override"> Enjoy the Burger</h3>
         <br><br><br>
+
         <div class="burgerimage">
             <img src="https://hhp-blog.s3.amazonaws.com/2019/07/burger.jpg" width="100" height="60"> </img>
-            <img src="https://ddbuckingham.files.wordpress.com/2018/06/o-b-facebook.jpg" width="105" height="60"> </img>
+            <img src="https://ddbuckingham.files.wordpress.com/2018/06/o-b-facebook.jpg" width="105" height="60">
+            </img>
             <img src="https://www.mcdonalds.com/content/dam/uk/nfl/nutrition/nfl-product/product/related/mcdonalds-Vegetable-Deluxe.jpg"
                 width="105" height="60"> </img>
             <img src="https://thebrag.com/wp-content/uploads/2019/05/McDonalds-Vegetarian.jpg" width="105" height="60">
@@ -16,12 +20,14 @@
                 width="105" height="60"></img>
         </div>
         <br><br><br>
-        <div class="order ">
-            <label for="newburger" id="color-override">New order :</label>
-            <input type="text" id="newburger" name="burger">
-            {{!-- Create a button in index.handlebars that will submit the user input into the database. --}}
-            <button type="submit" class="btn btn-success" id="addburger">Submit Order</button>
-        </div>
+        <form class="create-form">
+            <div class="order ">
+                <label for="newburger" id="color-override">New order :</label>
+                <input type="text" id="newburger" name="burger">
+                {{!-- Create a button in index.handlebars that will submit the user input into the database. --}}
+                <button type="submit" class="btn btn-success" id="addburger">Submit Order</button>
+            </div>
+        </form>
     </div><!-- card -->
 
     <div class="row">
