@@ -1,13 +1,12 @@
-
-
-
-.card{
-    background-color: rgb(211, 164, 35);
-   margin: 5px 0 20px 0;
-   border-radius: 23px;
-   height: 300px;
-   padding: 20px;
-   
+body{
+    background-image: url("/public/assets/img/Burger.jpg"); 
+}
+.jumbotron{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+   background-image: url("/public/assets/img/Burger.jpg"); 
 
 }
 #newburger {
@@ -16,6 +15,11 @@
 
 #color-override {
     color: rgb(116, 19, 19);
+    text-align: center;
+
+}
+#color-override2 {
+    color:white;
     text-align: center;
 
 }
