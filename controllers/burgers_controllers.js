@@ -28,7 +28,7 @@ router.post("/api/burgers", function (req, res) {
 
 // set burger devoured status to true
 router.put("/api/burgers/:id", function (req, res) {
-    var condition = "idn =  " + req.params.id;
+    var condition = "id =  " + req.params.id;
     console.log("condition", condition);
     burger.updateOne({ devoured: req.body.devoured }, condition, function (result) {
         if (result.changedRows === 0) {
