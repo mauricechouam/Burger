@@ -6,5 +6,5 @@ CREATE TABLE burgers (
 
  id Integer AUTO_INCREMENT NOT NULL, 
 burger_name VARCHAR(225) NOT NULL, 
-devoured BOOLEAN,
+devoured BOOLEAN DEFAULT false,
 PRIMARY KEY(id));
