@@ -86,7 +86,7 @@ body {
     font-family: Clip;
     src: url("https://acupoftee.github.io/fonts/Clip.ttf");
   }
-  
+  /* Keyframe for text animation */
   .sign {
     font-family: "Clip";
     text-transform: uppercase;
