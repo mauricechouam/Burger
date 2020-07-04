@@ -1,14 +1,16 @@
 {{!-- Setup the index.handlebars to have the template that Handlebars can render onto. --}}
 <div class="container">
-
-    <div class="jumbotron">
-        <div class="sign">
-            <span class="fast-flicker"> Welcome </span> to Maurice<span class="flicker"> Burger restaurant </span>
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="sign">
+               <h1> <span class="fast-flicker"> Welcome </span> to Maurice<span class="flicker"> Burger restaurant </span></h1>
+            </div>
+            <h3 id="color-override"> Enjoy the Burger</h3>
         </div>
-        <h3 id="color-override"> Enjoy the Burger</h3>
-        <br><br><br>
-
-        <div class="burgerimage">
+    </div>
+    <br><br><br>
+    <div class="row">
+        <div class="burgerimage card ">
             <img src="https://hhp-blog.s3.amazonaws.com/2019/07/burger.jpg" width="100" height="60"> </img>
             <img src="https://ddbuckingham.files.wordpress.com/2018/06/o-b-facebook.jpg" width="105" height="60">
             </img>
@@ -18,8 +20,14 @@
             </img>
             <img src="https://www.qsrmagazine.com/sites/default/files/styles/story_page/public/news-image/sonic-unveils-new-jr-garlic-butter-bacon-burger.jpg?itok=jZfdng2m"
                 width="105" height="60"></img>
+            <img src="https://thebrag.com/wp-content/uploads/2019/05/McDonalds-Vegetarian.jpg" width="105" height="60">
+            </img>
+            <img src="https://thebrag.com/wp-content/uploads/2019/05/McDonalds-Vegetarian.jpg" width="105" height="60">
+            </img>
         </div>
-        <br><br><br>
+    </div>
+    <br><br><br>
+    <div class="row">
         <form class="create-form">
             <div class="order ">
                 <label for="newburger" id="color-override">New order :</label>
@@ -28,9 +36,11 @@
                 <button type="submit" class="btn btn-success" id="addburger">Submit Order</button>
             </div>
         </form>
-    </div><!-- card -->
-
-    <div class="row">
+    </div>
+    <br>
+</div><!-- container -->
+<div class="container">
+    <div class="row ">
         <!-- Undevoured Burgers -->
         <div class="col-sm-6">
             <div class="panel panel-default">
@@ -50,6 +60,7 @@
             </div>
         </div>
         <!-- Devoured Burgers -->
+
         <div class="col-sm-6">
             <div class="panel panel-default">
                 <div class="panel-heading" id="righthead"><strong>Devoured Burgers</strong></div>
@@ -67,6 +78,6 @@
                 </div>
             </div>
         </div>
-    </div><!-- /row -->
-
-</div><!-- /container --
+    </div>
+</div><!-- /row -->
+<!-- /container --

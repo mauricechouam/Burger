@@ -3,6 +3,10 @@ body {
     background-image: url("https://www.freegreatpicture.com/files/147/4706-background-color.jpg"); 
     background-size: cover;
   }
+  h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+  }
   
 .jumbotron{
     background-repeat: no-repeat;
@@ -68,7 +72,7 @@ body {
 }
 .burgerimage{
     position: relative;
-    left: 60%;
+    left: 50%;
     transform: translate(-50%, -50%);
     
 }
