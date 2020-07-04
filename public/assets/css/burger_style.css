@@ -5,7 +5,15 @@ body {
   }
   h1{
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    color: white;
+    text-align: center;
   }
   
 .jumbotron{
