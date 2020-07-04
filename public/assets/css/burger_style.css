@@ -4,8 +4,7 @@ body {
     background-size: cover;
   }
   h1{
-    text-align: center;
-    
+    text-align: center; 
   }
   footer {
     position: fixed;
@@ -14,6 +13,9 @@ body {
     width: 100%; 
     color: white;
     text-align: center;
+  }
+  #color-overrides{
+    color: white;
   }
   
 .jumbotron{
@@ -306,4 +308,8 @@ body {
           background-color: yellow;
         }
       }
+
+.fa-cutlery:hover{
+  text-emphasis: Devor it;
+}
   

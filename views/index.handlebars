@@ -30,7 +30,7 @@
     <div class="row">
         <form class="create-form">
             <div class="order ">
-                <label for="newburger" id="color-override">New order :</label>
+                <label for="newburger" id="color-overrides">New order :</label>
                 <input type="text" id="newburger" name="burger">
                 {{!-- Create a button in index.handlebars that will submit the user input into the database. --}}
                 <button type="submit" class="btn btn-success" id="addburger">Submit Order</button>
@@ -44,7 +44,7 @@
         <!-- Undevoured Burgers -->
         <div class="col-sm-6">
             <div class="panel panel-default">
-                <div class="panel-heading" id="lefthead"><strong>Burgers Ordered</strong></div>
+                <div class="panel-heading" id="lefthead"><strong>waiting to be devoured</strong></div>
                 <div class="panel-body">
                     <ul>
                         {{#each burgers}}
