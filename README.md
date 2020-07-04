@@ -58,7 +58,7 @@
 * https://youtu.be/msvdn95x9OM
 
 ## Author
-* Application Built from Scracth by 
+* Application Built from Scratch by 
    [mauricechouam](https://github.com/mauricechouam)
   <img src="https://github.com/mauricechouam.png" alt="GitHub Profile Pic" width="150" height="150">
   
