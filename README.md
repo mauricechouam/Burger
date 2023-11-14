@@ -13,7 +13,7 @@
   * [Author](#Author)
 
   ## About This Project
-  his project is a full stack application that allows you to place an order for a burger. When you place an order, the burger you enter in the form field is added to the list of burgers on the left side of the screen. Each burger in the list has a <b>Icon Eat</b> button. Clicking this button moves the burger from the list on the left side of the screen to the list on the right. The list on the right is a list of burgers that have already been devoured. Each burger in this list has a <b>Delete</b> button that allows you to remove the burger, which deletes the burger from the user interface as well as from the MySQL database.
+   his project is a full stack application that allows you to place an order for a burger. When you place an order, the burger you enter in the form field is added to the list of burgers on the left side of the screen. Each burger in the list has a <b>Icon Eat</b> button. Clicking this button moves the burger from the list on the left side of the screen to the list on the right. The list on the right is a list of burgers that have already been devoured. Each burger in this list has a <b>Delete</b> button that allows you to remove the burger, which deletes the burger from the user interface as well as from the MySQL database....
 
 ## Screenshots
 
